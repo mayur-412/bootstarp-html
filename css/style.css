@@ -21,7 +21,7 @@ body{
 }
 a{
 	text-decoration: none;
-	transition: 0.3s;
+	transition: 0.3s!important;
 }
 p,h1,h2,h3,h4,h5,h6{
 	margin: 0;
@@ -776,28 +776,13 @@ button#button-addon2 {
                 /* footer-section end */
 
 
-
-
-
        /* meida query start */
 
-
-
-
-@media (min-width: 981px){
-.logo{
-	display: none;
-}
-}
 
 @media (max-width: 1024px){
 header .container{
 	padding-top: 20px;
 	padding-bottom: 20px;
-}
-.logo{
-	max-width: 250px;
-	margin: 0 auto;
 }
 .banner-section .container, .banner-Two .container, .four-section{
 	padding-bottom: 60px;
