@@ -705,10 +705,13 @@ button#button-addon2 {
 
 
                /* last-section start */
-
-.last-section{
+.last-section.container-fluid{
+	padding-left: 0!important;
+	padding-right: 0!important;
+}
+.back{
 	background-image: url(../images/last-img.jpg);
-	background-size: 100% 368px;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	height: 368px;
 }
@@ -849,7 +852,23 @@ header .container{
 
 
 @media (max-width: 767px){
-
+.last-tx {
+   padding-top: 30px;
+}
+li.nav-item {
+    margin-left: 0!important;
+    padding: 10px 0;
+    border-top: 2px solid #00000085;
+    width: 100%;
+    text-align: center;
+}
+ul.navbar-nav{
+	padding-top: 15px;
+}
+nav ul li:last-child a.nav-link{
+	padding: 0!important;
+	background: none;
+}
 .text-one:after, .left-content:after{
 	right: -1000%;
 }
@@ -923,7 +942,7 @@ header .container{
 
 
 
-@media (max-width: 649px){
+@media (max-width: 639px){
 
 .text-box h2{
 	font-size: 26px;
@@ -944,8 +963,14 @@ header .container{
 
 
 
-@media (max-width: 439px){
-
+@media (max-width: 479px){
+.last-img{
+	max-width: 70px;
+}
+.last-tx span{
+	max-width: 200px;
+	text-align: center;
+}
 .text-box {
     top: -10px;
     right: -19px;
